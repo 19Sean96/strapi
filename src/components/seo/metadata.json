@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_seo_metadata",
+  "info": {
+    "displayName": "Metadata",
+    "icon": "hashtag"
+  },
+  "options": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string",
+      "maxLength": 60,
+      "required": true,
+      "unique": true
+    },
+    "seo_description": {
+      "type": "text",
+      "maxLength": 160,
+      "required": true,
+      "unique": true
+    }
+  },
+  "config": {}
+}
